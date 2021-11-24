@@ -1,17 +1,23 @@
+
+const firstNumber = 20;
+let secondNumber = 15;
+
+
+
 function addition(a, b, c) {
-    console.log("summe ist:", a + b + c)
+    console.log("summe ist:", secondNumber + a + b + c + firstNumber);
 }
 
 function subtraktion(a, b, c) {
-    console.log("summe ist:", a - b - c)
+    console.log("summe ist:", secondNumber - a - b - c - firstNumber);
 }
 
 function multiplikation(a, b, c) {
-    console.log("summe ist:", a * b * c)
+    console.log("summe ist:", secondNumber * a * b * c * firstNumber);
 }
 
 function division(a, b, c) {
-    console.log("summe ist:", a / b / c)
+    console.log("summe ist:", secondNumber / a / b / c / firstNumber);
 }
 
 addition(3, 5, 7)
