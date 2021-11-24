@@ -14,7 +14,7 @@ function division( firstNumber , secondNumber , thirdNumber){
     console.log("division ergibt", firstNumber / secondNumber / thirdNumber);
 }
 
-addition(7, 9);
-subtraktion(8, 3);
-multiplikation(6, 30);
-division(20, 2);
+addition(7, 9,8);
+subtraktion(8, 3,8);
+multiplikation(6, 30,6);
+division(20, 2,5);
